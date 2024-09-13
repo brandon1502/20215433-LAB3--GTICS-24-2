@@ -32,6 +32,8 @@ public class Employee {
     @Column(name = "job_id", nullable = false)
     private String job_id;
 
+    @Column(name = "hire_date", nullable = false)
+    private String hire_date;
 
 //CARGO -> JOB ID
 //DEPARTAMENTO -> DEPARTMENT ID

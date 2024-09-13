@@ -60,10 +60,10 @@
 
                 <tr th:each="employee, info : ${listaEmployees}">
                     <td th:text="${employee.lastname + ', ' + employee.firstname}"></td>
-                    <td Departamento></td>
+                    <td >Departamento</td>
                     <td th:text="${employee.job_id}"></td>
-                    <td Fecha></td>
-                    <td Fecha></td>
+                    <td th:text="${employee.hire_date}"></td>
+                    <td>Fecha Fin</td>
 
                 </tr>
 
