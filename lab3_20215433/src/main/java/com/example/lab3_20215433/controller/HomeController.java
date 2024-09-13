@@ -78,7 +78,7 @@ public class HomeController {
         return"historial";
     }
 
-    
+
 
     @GetMapping("/reportesPage")
     public String reportes( Model model) {
